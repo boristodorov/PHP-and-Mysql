@@ -1,5 +1,5 @@
 <?php
-//Explanation of echo function 
+//Funkcija echo
  echo 'Boris Todorov <br>';  // Boris Todorov
  echo 'I\'m PHP <br>';// I'm PHP
  echo 'Hello ' . 'World <br>'; // Hello World
@@ -7,26 +7,32 @@
  echo 4+7*2 . '<br>'; // 18
  echo (4+7)*2 . '<br>';// 22
  
- // Explanation of variable 
+ // Promenljive 
  
  $myVarr = 10 .'<br>';
  echo $myVarr ; // 10
  echo $myVarr ;
  echo $myVarr ;
  
- //We can change value of variable 
+ //Mozemo promeniti vrednost promenljive
  $myVarr='Hello<br>';
  echo $myVarr ; // Hello
  $myVarr='PHP <br>';
  echo $myVarr ; // PHP
  echo $myVarr ;
  
- $MyVarr2 = 1;
- $MyVarr3 = 10;
+ $myVarr2 = 1;
+ $myVarr3 = 10;
  echo $MyVarr2 + $MyVarr3; // 11
- 
+   
 ?>
-
+<?php
+//Konvencija za naimenovanje promenljive 
+    $username = 'Boris';
+   // $123 = 123; false
+    $_123 = 123;
+    $hereisthevaluesofusernamefromform = 'Some text'; //false
+    //$#$%^% = 123; false
 
 
  
