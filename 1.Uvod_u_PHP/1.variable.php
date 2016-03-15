@@ -27,7 +27,7 @@
    
 ?>
 <?php
-//Konvencija za naimenovanje promenljive 
+//Konvencija za imenovanje promenljive 
     $username = 'Boris';
    // $123 = 123; false
     $_123 = 123;
