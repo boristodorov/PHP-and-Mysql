@@ -31,8 +31,15 @@
     $username = 'Boris';
    // $123 = 123; false
     $_123 = 123;
-    $hereisthevaluesofusernamefromform = 'Some text'; //false
+    $hereisthevaluesofusernamefromform = 'text'; //false
     //$#$%^% = 123; false
-
+    
+//PHP nije strogo tipiziran kao JAVA ili C#, sto znaci da promenljiva moze menjati tip podataka koji sadrzi
+    
+    $myVarr4 = 12; //12
+    
+    $myVarr4 = 'Text'; // Text
+    echo $myVarr4;
+    
 
  
