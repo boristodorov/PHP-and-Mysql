@@ -1,3 +1,8 @@
+
+<form method="post">
+    <input type="text"  name="username"/>
+    <input type="submit" value="gogo" />
+</form>
 <?php
 
 /* 
@@ -6,4 +11,3 @@
  * and open the template in the editor.
  */
 
-print_r($_SERVER);
